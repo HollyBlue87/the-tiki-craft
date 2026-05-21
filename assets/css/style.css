@@ -110,6 +110,52 @@ body {
   background-color: #dca32c;
 }
 
+.about-tiki-craft {
+  background-color: var(--primary-bg-colour);
+}
+
+.about-title {
+  font-size: 1.3rem;
+  color: #110b06;
+}
+
+#about-text {
+    color: #13817b;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    max-width: 820px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+#about-info {
+  color: #13817b;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+#icon {
+  width: 100px;
+  height: auto;
+}
+
+.offer-icon {
+  width: 80px;
+  height: auto;
+}
+
+.offer-grid p {
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: var(--nav-footer-colour); 
+}
+
+.offer-grid h3 {
+  font-size: 1.3rem;
+  color: var(--nav-footer-colour);
+}
 /* Media Queries */
 
 /* media query: tablets and larger (768px and up) */
@@ -137,10 +183,10 @@ body {
     margin-bottom: 20px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
   }
-}
 
-.about-tiki-craft {
-  background-color: var(--primary-bg-colour);
+  .about-title {
+    font-size: 1.8rem; /*Changes the font size of the title for tablets*/
+  }
 }
 
 
