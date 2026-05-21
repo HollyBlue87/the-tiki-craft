@@ -45,11 +45,13 @@
       <!--Bootstrap Navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
         <div class="container-fluid">
-          <img
-            id="navbar-logo"
-            src="assets/images/beach-logo.png"
-            alt="Palm Tree"
-          />
+          <a href="index.html">
+            <img
+              id="navbar-logo"
+              src="assets/images/beach-logo.png"
+              alt="Palm Tree"
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -112,47 +114,142 @@
         <div class="container">
           <!-- About heading and text -->
           <div class="row">
-            <div class="col-12 text-center mb-5">
+            <div class="col-12 text-center">
               <p id="about-info">── ✦ About The Tiki Craft ✦ ──</p>
 
-              <h2 class="about-title mb-4">THE ULTIMATE PARTY EXPERIENCE</h2>
+              <h2 class=" mb-4" id="about-title">THE ULTIMATE PARTY EXPERIENCE</h2>
 
               <p id="about-text">
                 Feel the music, taste the flavour and embrace the spirit of
                 Tobago aboard The Tiki Craft. With native Caribbean rhythms,
-                freshly grilled BBQ, ice-cold drinks and ocean views all
-                around, every journey becomes a floating island experience. From
-                dancing with friends to soaking up the atmosphere on deck, The
-                Tiki Craft delivers the ultimate party experience on the water.
+                freshly grilled BBQ, ice-cold drinks and ocean views all around,
+                every journey becomes a floating island experience. From dancing
+                with friends to soaking up the atmosphere on deck, The Tiki
+                Craft delivers the ultimate party experience on the water.
               </p>
             </div>
           </div>
 
           <!-- What we offer icons -->
-          <div class="row text-center offer-grid g-3 g-md-4 g-lg-5">
+          <div class="row text-center offer-grid g-3 g-md-4 g-lg-5 mt-4">
             <div class="col-12 col-md-6 col-lg-3 mt-lg-5">
-              <img class="offer-icon" src="assets/images/drink.png" alt="Cocktail drink icon">
+              <img
+                class="offer-icon"
+                src="assets/images/drink.png"
+                alt="Cocktail drink icon"
+              />
               <h3>Rum & Spirits</h3>
-              <p>Enjoy refreshing drinks and island favourites served throughout every journey.</p>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-              <img class="offer-icon" src="assets/images/foodtray.png" alt="Food tray icon">
-              <h3>Fresh BBQ</h3>
-              <p>Freshly grilled food served straight from the BBQ with authentic Caribbean flavour.</p>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-              <img class="offer-icon" src="assets/images/music.png" alt="Music icon">
-              <h3>Native Music</h3>
-              <p>Feel the rhythm of Tobago with music that keeps the atmosphere alive from start to finish.</p>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-              <img class="offer-icon" src="assets/images/palmtree.png" alt="Palm tree icon">
-              <h3>Island Views</h3>
-              <p>Take in breathtaking ocean scenery and experience the beauty of island life on the water.
+              <p>
+                Enjoy refreshing drinks and island favourites served throughout
+                every journey.
               </p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <img
+                class="offer-icon"
+                src="assets/images/foodtray.png"
+                alt="Food tray icon"
+              />
+              <h3>Fresh BBQ</h3>
+              <p>
+                Freshly grilled food served straight from the BBQ with authentic
+                Caribbean flavour.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <img
+                class="offer-icon"
+                src="assets/images/music.png"
+                alt="Music icon"
+              />
+              <h3>Native Music</h3>
+              <p>
+                Feel the rhythm of Tobago with music that keeps the atmosphere
+                alive from start to finish.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <img
+                class="offer-icon"
+                src="assets/images/palmtree.png"
+                alt="Palm tree icon"
+              />
+              <h3>Island Views</h3>
+              <p>
+                Take in breathtaking ocean scenery and experience the beauty of
+                island life on the water.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Destination cards section-->
+      <section class="tiki-craft-destinations mt-5">
+        <div class="container">
+          <div class="col-12 text-center mb-5">
+            <p id="destinations-info">✦ Explore Tobago ✦</p>
+
+            <h2 id="destinations-title">DESTINATIONS</h2>
+
+            <p id="destinations-text">
+              Discover unforgettable island locations and breathtaking coastal scenery aboard The Tiki Craft.
+            </p>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/nylon-pool.png"
+                  class="card-img-top"
+                  alt="A picture of nylon pool tobago"
+                />
+                <div class="card-body text-center d-flex flex-column">
+                  <h4 class="card-title">Nylon Pool</h4>
+                  <p class="card-text">
+                    Relax in crystal-clear turquoise waters surrounded by
+                    breathtaking Caribbean scenery.
+                  </p>
+                  <a href="#" class="btn btn-outline-info mt-auto">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/no-mans-land.png"
+                  class="card-img-top"
+                  alt="A picture of no mans land tobago"
+                />
+                <div class="card-body text-center d-flex flex-column">
+                  <h4 class="card-title">No Man's Land</h4>
+                  <p class="card-text">
+                    Escape to a secluded tropical paradise with white sands,
+                    palm trees, and island vibes.
+                  </p>
+                  <a href="#" class="btn btn-outline-info mt-auto">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100">
+                <img
+                  src="assets/images/bon-accord.png"
+                  class="card-img-top"
+                  alt="A picture of nylon pool tobago"
+                />
+                <div class="card-body text-center d-flex flex-column">
+                  <h4 class="card-title">Bon Accord Lagoon</h4>
+                  <p class="card-text">
+                    Experience calm coastal beauty and peaceful lagoon views in
+                    one of Tobago’s hidden gems.
+                  </p>
+                  <a href="#" class="btn btn-outline-info mt-auto">Learn More</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
