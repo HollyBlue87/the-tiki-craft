@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Experience unforgettable island adventures aboard The Tiki Craft in Tobago.">
     <!--Title-->
     <title>The Tiki Craft</title>
 
@@ -10,31 +11,26 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/images/apple-touch-icon.png"
-    />
+      href="assets/images/apple-touch-icon.png">
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/images/favicon-32x32.png"
-    />
+      href="assets/images/favicon-32x32.png">
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/images/favicon-16x16.png"
-    />
+      href="assets/images/favicon-16x16.png">
 
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
 
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
 
     <!--Custom css -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -45,10 +41,12 @@
       <!--Bootstrap Navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
         <div class="container-fluid">
-          <a href="index.html">
+          <a href="index.html" aria-label="Go To Homepage">
             <img
               id="navbar-logo"
               src="assets/images/beach-logo.png"
+              width="90"
+              height="80"
               alt="Palm Tree"
             />
           </a>
@@ -67,35 +65,31 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a
-                  id="active"
                   class="nav-link active"
-                  aria-current="page"
+                  aria-label="active"
                   href="#"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="voyage.html">The Voyage</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destinations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <button type="button" class="btn book-btn">Book Now</button>
+            <a type="button" class="btn" id="book-btn" href="booking.html">Book Now</a>
           </div>
         </div>
       </nav>
     </header>
 
     <main>
-      <section id="hero">
+      <section id="homepage-hero">
         <div class="hero-content">
           <p class="hero-script">Escape the</p>
           <h1 class="hero-title">Ordinary</h1>
@@ -103,9 +97,9 @@
             Where island vibes, drinks, food, music, and ocean views come
             together.
           </p>
-          <button type="button" class="btn btn-info" id="book-btn">
+          <a type="button" class="btn btn-info" id="book-btn" href="booking.html">
             Book Your Experience Today!
-          </button>
+          </a>
         </div>
       </section>
 
@@ -117,7 +111,9 @@
             <div class="col-12 text-center">
               <p id="about-info">── ✦ About The Tiki Craft ✦ ──</p>
 
-              <h2 class=" mb-4" id="about-title">THE ULTIMATE PARTY EXPERIENCE</h2>
+              <h2 class="mb-4" id="about-title">
+                THE ULTIMATE PARTY EXPERIENCE
+              </h2>
 
               <p id="about-text">
                 Feel the music, taste the flavour and embrace the spirit of
@@ -136,6 +132,9 @@
               <img
                 class="offer-icon"
                 src="assets/images/drink.png"
+                loading="lazy"
+                width="100"
+                height="100"
                 alt="Cocktail drink icon"
               />
               <h3>Rum & Spirits</h3>
@@ -149,6 +148,9 @@
               <img
                 class="offer-icon"
                 src="assets/images/foodtray.png"
+                loading="lazy"
+                width="100"
+                height="100"
                 alt="Food tray icon"
               />
               <h3>Fresh BBQ</h3>
@@ -162,6 +164,9 @@
               <img
                 class="offer-icon"
                 src="assets/images/music.png"
+                loading="lazy"
+                width="100"
+                height="100"
                 alt="Music icon"
               />
               <h3>Native Music</h3>
@@ -175,6 +180,9 @@
               <img
                 class="offer-icon"
                 src="assets/images/palmtree.png"
+                loading="lazy"
+                width="100"
+                height="100"
                 alt="Palm tree icon"
               />
               <h3>Island Views</h3>
@@ -188,69 +196,117 @@
       </section>
 
       <!-- Destination cards section-->
-      <section class="tiki-craft-destinations mt-5">
+      <section class="tiki-craft-destinations py-5" id="destinations">
         <div class="container">
-          <div class="col-12 text-center mb-5">
-            <p id="destinations-info">✦ Explore Tobago ✦</p>
+          <div class="col-12 text-center">
+            <p id="destinations-info"">✦ Explore Tobago ✦</p>
 
             <h2 id="destinations-title">DESTINATIONS</h2>
 
             <p id="destinations-text">
-              Discover unforgettable island locations and breathtaking coastal scenery aboard The Tiki Craft.
+              Discover unforgettable island locations and breathtaking coastal
+              scenery aboard The Tiki Craft.
             </p>
           </div>
-          <div class="row g-4 justify-content-center">
+          <div class="row g-4 justify-content-center mt-4">
             <div class="col-md-6 col-lg-4">
               <div class="card h-100">
                 <img
-                  src="assets/images/nylon-pool.png"
+                  src="assets/images/nylon-pool.webp"
+                  loading="lazy"
+                  width="600"
+                  height="400"
                   class="card-img-top"
                   alt="A picture of nylon pool tobago"
                 />
                 <div class="card-body text-center d-flex flex-column">
-                  <h4 class="card-title">Nylon Pool</h4>
+                  <h3 class="card-title">Nylon Pool</h3>
                   <p class="card-text">
                     Relax in crystal-clear turquoise waters surrounded by
                     breathtaking Caribbean scenery.
                   </p>
-                  <a href="#" class="btn btn-outline-info mt-auto">Learn More</a>
+                  <a href="#" class="btn btn-outline-info mt-auto"
+                    >Learn More</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="card h-100">
                 <img
-                  src="assets/images/no-mans-land.png"
+                  src="assets/images/no-mans-land.webp"
+                  loading="lazy"
+                  width="600"
+                  height="400"
                   class="card-img-top"
                   alt="A picture of no mans land tobago"
                 />
                 <div class="card-body text-center d-flex flex-column">
-                  <h4 class="card-title">No Man's Land</h4>
+                  <h3 class="card-title">No Man's Land</h3>
                   <p class="card-text">
                     Escape to a secluded tropical paradise with white sands,
                     palm trees, and island vibes.
                   </p>
-                  <a href="#" class="btn btn-outline-info mt-auto">Learn More</a>
+                  <a href="#" class="btn btn-outline-info mt-auto"
+                    >Learn More</a
+                  >
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-4">
               <div class="card h-100">
                 <img
-                  src="assets/images/bon-accord.png"
+                  src="assets/images/bon-accord.webp"
+                  loading="lazy"
+                  width="600"
+                  height="400"
                   class="card-img-top"
                   alt="A picture of nylon pool tobago"
                 />
                 <div class="card-body text-center d-flex flex-column">
-                  <h4 class="card-title">Bon Accord Lagoon</h4>
+                  <h3 class="card-title">Bon Accord Lagoon</h3>
                   <p class="card-text">
                     Experience calm coastal beauty and peaceful lagoon views in
                     one of Tobago’s hidden gems.
                   </p>
-                  <a href="#" class="btn btn-outline-info mt-auto">Learn More</a>
+                  <a href="#" class="btn btn-outline-info mt-auto"
+                    >Learn More</a
+                  >
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section py5">
+        <div class="container">
+          <div class="row">
+          <div class="col-12 text-center py-5">
+            <p id="gallery-info">✦ Island Moments ✦</p>
+
+            <h2 id="gallery-title">GALLERY</h2>
+
+            <p id="gallery-text">
+              Explore moments from paradise aboard The Tiki Craft.
+            </p>
+          </div>
+          <div class="scroll-container">
+            <img class="zoom-hover" src="assets/images/tiki-sunset.webp" alt="the sunset from aboard the tiki craft">
+            <img class="zoom-hover" src="assets/images/tobago-flag.webp" alt="the tobago flag against the blue sky">
+            <img class="zoom-hover" src="assets/images/ice-drink.webp" alt="Close up picture of an ice drink ">
+            <img class="zoom-hover" src="assets/images/sunset-pose.webp" alt="A woman posing on the side of the Tiki craft">
+            <img class="zoom-hover" src="assets/images/sunset-staff.webp" alt="the sunset and a tiki craft staff member">
+            <img class="zoom-hover" src="assets/images/jet-ski.webp" alt="People in the water and on the jet ski">
+            <img class="zoom-hover" src="assets/images/in-water-pose.webp" alt="two women in the water next to the tiki craft">
+            <img class="zoom-hover" src="assets/images/party-back.webp" alt="A group of people celebrating while looking at the water">
+            <img class="zoom-hover" src="assets/images/group-water-pose.webp" alt="A group of people in the water smiling">
+            <img class="zoom-hover" src="assets/images/night-water.webp" alt="A group posing for a picture in the water at night">
+            <img class="zoom-hover" src="assets/images/night-party.webp" alt="A pafrty in the water at night">
+          </div>
+          <div class="row justify-content-center py-5 ">
+            <a href="#" type="button" class="btn btn-outline-success px-5 py-2 w-auto">View Gallery</a>
+          </div>
           </div>
         </div>
       </section>
