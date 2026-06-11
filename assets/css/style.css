@@ -403,7 +403,7 @@ body {
 }
 
 #voyage-final-cta .cta-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: white;
   font-weight: 500;
   line-height: 1.5;
@@ -423,6 +423,62 @@ body {
   background-color: #dca32c;
 }
 
+/* Gallery Page */
+
+/* Gallery hero section */
+#gallery-hero {
+  position: relative;
+  height: 320px;
+
+  background:
+    linear-gradient(#0000004d, rgba(0, 0, 0, 0.3)),
+    url("../images/palm-water.webp");
+
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+  background-size: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+
+#gallery-hero .hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+  padding-right: 1rem;
+}
+
+#gallery-hero .hero-text {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+  padding-right: 1rem;
+  justify-content: center;
+}
+
+/* gallery content section*/
+#about-gallery {
+  background-color: var(--secondary-bg-colour);
+}
+
+/* Gallery grid section */
+#gallery-grid {
+  background-color: var(--primary-bg-colour);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
 /* Media Queries */
 
 /* media query: tablets and larger (768px and up) */
@@ -520,9 +576,32 @@ body {
   min-height: 325px;
   background-position: 60% 40%;
 }
+
+/* gallery-content section for md screens */
+
+#gallery-hero {
+  height: 420px;
+  background-position: 60% 50%;
 }
 
-/* Voyage Section on voyage page*/
+/* changes the size of the text on the gallery hero image for tablets */
+
+.hero-content {
+  position: absolute;
+  padding-top: 3rem;
+  padding-right: 3rem;
+}
+#gallery-hero .hero-title {
+  font-size: 2.5rem;
+}
+
+#gallery-hero .hero-text {
+  font-size: 1.3rem;
+
+}
+}
+
+
 
 /* large devices (laptops and desk tops 992px and up*/
 
@@ -595,5 +674,27 @@ padding: 2rem 2rem;
 }
 #voyage-final-cta .cta-banner {
   min-height: 300px;
+}
+
+/* Styling for hero image on gallery page*/
+
+#gallery-hero {
+  height: 520px;
+  background-position: 80% 40%;
+}
+
+.hero-content {
+  position: absolute;
+  top: 4.5rem;
+  right: 3rem;
+}
+
+#gallery-hero .hero-title {
+  font-size: 3rem;
+}
+
+#gallery-hero .hero-text {
+  font-size: 1.4rem;
+
 }
 }
