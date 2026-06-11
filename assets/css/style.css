@@ -469,8 +469,6 @@ body {
   background-color: #dca32c;
 }
 
-
-
 /* Gallery hero section */
 #gallery-hero {
   position: relative;
@@ -521,9 +519,9 @@ body {
 }
 
 .gallery-img {
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }
 
 /* Media Queries */
@@ -645,6 +643,16 @@ body {
   #gallery-hero .hero-text {
     font-size: 1.3rem;
   }
+
+  #gallery-final-cta {
+    padding: 3rem;
+  }
+
+  /* makes final call to action image on homepage bigger on medium screens */
+  #gallery-final-cta .cta-banner {
+    min-height: 325px;
+    background-position: 60% 40%;
+  }
 }
 
 /* large devices (laptops and desk tops 992px and up*/
@@ -740,5 +748,11 @@ body {
   #gallery-hero .hero-text {
     font-size: 1.4rem;
   }
+
+  #gallery-final-cta {
+    padding: 2rem 2rem;
+  }
+  #gallery-final-cta .cta-banner {
+    min-height: 300px;
   }
 }
