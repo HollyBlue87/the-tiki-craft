@@ -40,6 +40,12 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
     <!--Custom css -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -70,7 +76,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <div class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
               </li>
@@ -78,17 +84,13 @@
                 <a class="nav-link" href="voyage.html">The Voyage</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="gallery.html"
-                  >Gallery</a
-                >
+                <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
-            </ul>
+            </div>
             <a type="button" class="btn" id="book-btn" href="booking.html"
               >Book Now</a
             >
@@ -98,7 +100,379 @@
     </header>
 
     <main>
+      <section id="booking-intro" class="pt-5 pb-4">
+        <div class="container text-center">
+          <div class="row">
+            <i class="fa-solid fa-anchor py-3 booking-anchor"></i>
+            <h1 class="section-title pb-4">
+              YOUR PERFECT DAY<br />STARTS HERE
+            </h1>
+            <p class="section-text">
+              Explore our cruises, special experiences and private venue
+              rentals. Whether you're planning a relaxing day on the water or a
+              private celebration, there's an option for you.
+            </p>
+          </div>
+        </div>
+      </section>
 
+      <section id="package-info" class="px-4">
+        <div class="container text-center bg-white rounded shadow-sm p-4">
+          <div class="row">
+            <hr class="section-divider mb-5 mt-0" />
+            <h2 class="section-title pb-4">Choose Your Package</h2>
+            <div class="col-lg-4">
+              <div class="accordion-item">
+                <h2 class="accordion-header mb-3">
+                  <button
+                    class="accordion-button rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <i class="fa-solid fa-sun me-2"></i>
+                    Palm Paradise Packages
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p class="package-name mb-3">Palm Paradise</p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$750 per person</p>
+                      <p class="mb-1">4-hour all-inclusive cruise</p>
+                      <p>Food, cocktails & dessert included</p>
+                    </div>
+
+                    <p class="package-name mb-3">
+                      Palm Kids Paradise (Children under 10)
+                    </p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$180 per child</p>
+                      <p class="mb-1">4-hour all-inclusive cruise</p>
+                      <p>Food & drinks included</p>
+                    </div>
+
+                    <p class="package-name mb-3">
+                      Palm Kids Paradise (Ages 10–14)
+                    </p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$350 per child</p>
+                      <p class="mb-1">4-hour all-inclusive cruise</p>
+                      <p>Food & drinks included</p>
+                    </div>
+
+                    <p class="side-note">
+                      <em
+                        >Unless stated otherwise, all cruises leave from
+                        Gibson's Jetty, Bon Accord.</em
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="accordion-item">
+                <h2 class="accordion-header mb-3">
+                  <button
+                    class="accordion-button collapsed rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <i class="fa-solid fa-champagne-glasses me-2"></i>
+                    Special Experiences
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body mb-3">
+                    <p class="package-name mb-3">Tiki Wave Retreat</p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$265 per person</p>
+                      <p class="mb-1">3-hour experience</p>
+                      <p class="mb-1">Welcome rum punch included</p>
+                      <p>Capacity: 35 guests</p>
+                    </div>
+
+                    <p class="package-name mb-3">Sunset Cruise</p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$2200 per couple</p>
+                      <p class="mb-1">2-hour private experience</p>
+                      <p class="mb-1">3-course meal included</p>
+                      <p class="mb-1">Cocktails included</p>
+                      <p>Romantic décor included</p>
+                    </div>
+
+                    <p class="package-name mb-3">Bamboo Lunch & Brunch</p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$500 per person</p>
+                      <p class="mb-1">3-hour experience</p>
+                      <p class="mb-1">Minimum 10 guests</p>
+                      <p>Brunch or lunch menu included</p>
+                    </div>
+
+                    <p class="package-name mb-3">Birthday Package</p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">Starting from TT$7500</p>
+                      <p class="mb-1">4-hour celebration package</p>
+                      <p class="mb-1">Food & drinks included</p>
+                      <p class="mb-1">Birthday décor included</p>
+                      <p>Customisable package options</p>
+                    </div>
+
+                    <p class="side-note">
+                      <em
+                        >Unless stated otherwise, all cruises leave from
+                        Gibson's Jetty, Bon Accord.</em
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="accordion-item">
+                <h2 class="accordion-header mb-3">
+                  <button
+                    class="accordion-button collapsed rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <i class="fa-solid fa-crown me-2"></i>
+                    Private Venue Rentals
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p class="package-name mb-3">Mini Venue Rental</p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$3000 package</p>
+                      <p class="mb-1">Up to 15 guests</p>
+                      <p class="mb-1">3-hour rental</p>
+                      <p class="mb-1">Welcome shots included</p>
+                      <p>25% deposit required</p>
+                    </div>
+
+                    <p class="package-name mb-3">
+                      Venue Rental Package (Without DJ)
+                    </p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$5500 package</p>
+                      <p class="mb-1">Up to 35 guests</p>
+                      <p class="mb-1">4-hour rental</p>
+                      <p class="mb-1">Welcome rum punch included</p>
+                      <p>25% deposit required</p>
+                    </div>
+
+                    <p class="package-name mb-3">
+                      Venue Rental Package (With DJ)
+                    </p>
+                    <div class="mb-4">
+                      <p class="package-price mb-1">TT$7000 package</p>
+                      <p class="mb-1">Up to 35 guests</p>
+                      <p class="mb-1">4-hour rental</p>
+                      <p class="mb-1">DJ included</p>
+                      <p class="mb-1">Welcome rum punch included</p>
+                      <p>25% deposit required</p>
+                    </div>
+
+                    <p class="side-note">
+                      <em
+                        >Unless stated otherwise, all cruises leave from
+                        Gibson's Jetty, Bon Accord.</em
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="section-divider mt-5 mb-0" />
+          </div>
+        </div>
+      </section>
+
+      <section id="booking-section" class="py-5">
+        <div class="container text-center">
+          <div class="row">
+            <h2 class="section-title pb-3">
+              <i class="fa-solid fa-anchor py-3 me-3 booking-anchor"></i>READY
+              TO BOOK?
+            </h2>
+            <p class="section-text">
+              Found the perfect package? Get in touch with us to check
+              availability, ask questions, or start planning your Tiki Craft
+              experience.
+            </p>
+          </div>
+          <div>
+            <button
+              class="btn book-btn btn-lg mt-5 px-4 py-2"
+              data-bs-toggle="modal"
+              data-bs-target="#bookingModal"
+            >
+              Request a Booking
+            </button>
+            <div
+              class="modal fade"
+              id="bookingModal"
+              tabindex="-1"
+              aria-labelledby="bookingModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg" id="modal-section">
+                <div class="modal-content text-start">
+                  <div class="modal-header">
+                    <h2
+                      class="modal-title fs-5 section-title"
+                      id="bookingModalLabel"
+                    >
+                      Booking Enquiry
+                    </h2>
+
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <form>
+                      <div class="row">
+                        <div class="col-lg-6 mb-3">
+                          <label for="first-name" class="form-label"
+                            >First Name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control required"
+                            id="first-name"
+                            required
+                          />
+                        </div>
+
+                        <div class="col-lg-6 mb-3">
+                          <label for="last-name" class="form-label"
+                            >Last Name</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control required"
+                            id="last-name"
+                            required
+                          />
+                        </div>
+
+                        <div class="col-lg-6 mb-3">
+                          <label for="email" class="form-label"
+                            >Email Address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control required"
+                            id="email"
+                            required
+                          />
+                        </div>
+
+                        <div class="mb-3 col-lg-6">
+                          <label for="phone" class="form-label"
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            class="form-control required"
+                            id="phone"
+                          />
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="package" class="form-label">
+                            Package Interested In
+                          </label>
+
+                          <select class="form-select required" id="package">
+                            <option value="" selected disabled>
+                              Select a package
+                            </option>
+                            <option>Palm Paradise</option>
+                            <option>Palm Kids Paradise</option>
+                            <option>Tiki Wave Retreat</option>
+                            <option>Sunset Cruise</option>
+                            <option>Venue Rental</option>
+                          </select>
+                        </div>
+
+                        <div class="mb-3 col-lg-6">
+                          <label for="date" class="form-label">
+                            Preferred Date
+                          </label>
+
+                          <input
+                            type="date"
+                            class="form-control required"
+                            id="date"
+                          />
+                        </div>
+
+                        <div class="mb-3 col-lg-6">
+                          <label for="guests" class="form-label required">
+                            Number of Guests
+                          </label>
+
+                          <input
+                            type="number"
+                            class="form-control required"
+                            id="guests"
+                            min="1"
+                          />
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="message" class="form-label">
+                            Additional Information
+                          </label>
+
+                          <textarea class="form-control" id="message" rows="4">
+                          </textarea>
+                        </div>
+
+                        <hr class="section-divider my-4">
+
+                        <div class="text-center mt-4">
+                          <a href="success.html" type="submit" class="btn btn-warning px-5">
+                            Submit Enquiry
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>Footer</footer>
 

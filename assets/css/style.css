@@ -49,26 +49,59 @@ body {
   cursor: pointer;
 }
 
-.book-btn {
+.custom-navbar #book-btn {
   background-color: #7fe7d6;
   color: var(--nav-footer-colour) !important;
   border: none;
+  margin-left: 1rem;
 }
 
-.book-btn:hover {
+.custom-navbar #book-btn:hover {
   background-color: var(--btn-hover-colour);
   color: white;
+}
+
+/* Styles for footer */
+
+footer {
+  background-color: var(--nav-footer-colour);
+  color: var(--primary-bg-colour);
+  border-top: 3px solid var(--secondary-bg-colour);
+}
+
+.footer-logo {
+  max-width: 160px;
+}
+
+.footer-heading {
+  color: var(--secondary-bg-colour);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+footer a {
+  color: var(--primary-bg-colour);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--secondary-bg-colour);
+}
+
+.footer-bottom {
+  background-color: #000;
+  font-size: 0.9rem;
 }
 
 #homepage-hero {
   min-height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/hero-image-mobile.webp");
+    url("../images/homepage-mobile.webp");
 
   background-repeat: no-repeat;
-  background-position: 63% center;
-  background-size: 220%;
+  background-position: 63% 40%;
 }
 
 #homepage-hero .hero-content {
@@ -483,7 +516,7 @@ body {
   background-size: cover;
 }
 
-.hero-content {
+#gallery-hero .hero-content {
   position: absolute;
   top: 2rem;
   right: 1rem;
@@ -524,28 +557,254 @@ body {
   object-fit: cover;
 }
 
+/* Booking page */
+
+#booking-intro {
+  background-color: var(--primary-bg-colour);
+}
+#booking-intro .booking-anchor {
+  font-size: 1.8rem;
+  color: var(--secondary-bg-colour);
+}
+
+#booking-intro .section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 1px;
+}
+
+#booking-intro p {
+  color: var(--nav-footer-colour);
+}
+/* Horizontal line */
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background-color: var(--secondary-bg-colour); /* teal line */
+  opacity: 1;
+}
+
+#package-info .section-title {
+  font-size: 1.5rem;
+}
+
+#package-info .package-subtitle {
+  font-size: 0.9rem;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+}
+
+/* Accordions */
+#package-info {
+  background-color: var(--primary-bg-colour);
+}
+#package-info li,
+h2 {
+  color: var(--nav-footer-colour);
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background-color: rgba(19, 123, 129, 0.75);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: var(--primary-bg-colour);
+  padding: 0.5rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.package-name {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.package-price {
+  color: var(--btn-colour);
+  font-weight: 500;
+}
+
+.side-note {
+  font-size: 0.9rem;
+}
+
+/* Booking section that holds the modal button */
+#booking-section {
+  background-color: var(--primary-bg-colour);
+}
+
+#booking-section .booking-anchor {
+  font-size: 1.4rem;
+  color: var(--secondary-bg-colour);
+}
+
+#booking-section .section-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* style for modal booking button */
+
+#booking-section .book-btn {
+  background-color: #dca32c;
+  color: var(--nav-footer-colour);
+}
+
+/* styles for modal */
+
+.modal-content {
+  background-color: var(--primary-bg-colour);
+  border: none;
+  border-radius: 12px;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(20, 136, 136, 0.3);
+}
+
+.modal-title {
+  color: var(--secondary-bg-colour);
+}
+
+.modal-body label {
+  color: var(--secondary-bg-colour);
+  font-weight: 500;
+}
+
+.modal .btn-warning {
+  background-color: var(--btn-hover-colour);
+  border: none;
+}
+
+#modal-section .section-divider {
+  height: 0.5px;
+}
+/* styles for success page */
+
+#success-section {
+  min-height: 100vh;
+  background-color: var(--primary-bg-colour);
+}
+
+#success-section .success-check {
+  font-size: 1.8rem;
+  color: var(--secondary-bg-colour);
+}
+
+#success-section .section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 1px;
+}
+
+#success-section .btn-warning {
+  background-color: #7fe7d6;
+  color: var(--nav-footer-colour);
+  border: none;
+}
+
+#success-section .btn-warning:hover {
+  background-color: var(--btn-hover-colour);
+}
+
+#success-section .btn-info {
+  background-color: #7fe7d6;
+  color: var(--nav-footer-colour);
+  border: none;
+}
+
+#success-section .btn-info:hover {
+  background-color: var(--btn-hover-colour);
+}
+
+/* 404 page */
+
+#error-section {
+  min-height: 100vh;
+  padding-top: 15vh;
+  background-color: var(--primary-bg-colour);
+}
+
+#error-section .error-anchor {
+  font-size: 2rem;
+  color: var(--secondary-bg-colour);
+}
+
+#error-section .section-title {
+  font-size: 5rem;
+  font-weight: 600;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 1px;
+}
+
+#error-section p {
+  color: var(--nav-footer-colour);
+}
+
+#error-section .error-message {
+  color: var(--secondary-bg-colour);
+  font-size: 1.8rem;
+}
+
+#error-section .btn-warning {
+  background-color: #7fe7d6;
+  color: var(--nav-footer-colour);
+  border: none;
+}
+
+#error-section .btn-warning:hover {
+  background-color: var(--btn-hover-colour);
+}
+
+#error-section .btn-info {
+  background-color: #7fe7d6;
+  color: var(--nav-footer-colour);
+  border: none;
+}
+
+#success-section .btn-info:hover {
+  background-color: var(--btn-hover-colour);
+}
+
 /* Media Queries */
 
 /* media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
   #homepage-hero {
-    min-height: 80vh;
+    min-height: 75vh;
 
     background:
       linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../images/hero-img.webp");
+      url("../images/homepage-hero-2.png");
 
     background-repeat: no-repeat;
-    background-position: 80% center;
+    background-position: 70% 40%;
     background-size: 220%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    padding-top: 120px;
+    padding-left: 40px;
+    max-width: 500px;
   }
 
   .hero-text {
     font-size: 1.3rem;
     color: white;
     line-height: 1.5;
-    text-align: center;
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -631,7 +890,7 @@ body {
 
   /* changes the size of the text on the gallery hero image for tablets */
 
-  .hero-content {
+  #gallery-hero .hero-content {
     position: absolute;
     padding-top: 3rem;
     padding-right: 3rem;
@@ -653,6 +912,29 @@ body {
     min-height: 325px;
     background-position: 60% 40%;
   }
+
+  /* change booking hero size for tablets */
+
+  #booking-hero {
+    min-height: 45vh;
+    max-width: 100%;
+    height: auto;
+    background-position: 60% 70%;
+    background-size: 102%;
+  }
+
+  #booking-hero .hero-content {
+    padding: 5rem;
+  }
+
+  #booking-hero .hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  #gallery-hero .hero-text {
+    font-size: 1.3rem;
+  }
 }
 
 /* large devices (laptops and desk tops 992px and up*/
@@ -672,11 +954,12 @@ body {
     min-height: 70vh;
 
     background:
-      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../images/hero-img.webp");
+      linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+      url("../images/homepage-hero-2.png");
 
     background-repeat: no-repeat;
-    background-position: center center;
+    background-size: 160%;
+    background-position: 70% 75%;
   }
 
   #homepage-hero {
@@ -735,7 +1018,7 @@ body {
     background-position: 80% 40%;
   }
 
-  .hero-content {
+  #gallery-hero .hero-content {
     position: absolute;
     top: 4.5rem;
     right: 3rem;
@@ -754,5 +1037,23 @@ body {
   }
   #gallery-final-cta .cta-banner {
     min-height: 300px;
+  }
+
+  #booking-hero {
+    min-height: 55vh;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* footer styles */
+  .footer-description {
+    max-width: 260px;
+  }
+  .footer-logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-about {
+    margin-top: -0.5rem;
   }
 }
