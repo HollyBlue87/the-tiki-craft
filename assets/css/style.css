@@ -347,6 +347,11 @@ footer a:hover {
   font-size: 1.3rem;
 }
 
+#voyage-hero .book-btn {
+  background-color: #7fe7d6;
+  border: none;
+}
+
 /* What to expect section */
 
 /* Journey timeline*/
@@ -1002,6 +1007,11 @@ h2 {
   #homepage-final-cta .cta-banner {
     min-height: 300px;
   }
+
+  #voyage-hero .hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
 
   /* changes the size of the image and padding on the voyage finall cta */
   #voyage-final-cta {
