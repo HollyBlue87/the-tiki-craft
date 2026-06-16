@@ -52,6 +52,7 @@ body {
 .custom-navbar #book-btn {
   background-color: #7fe7d6;
   color: var(--nav-footer-colour) !important;
+  margin-right: 1rem;
   border: none;
 }
 
@@ -140,7 +141,7 @@ footer a:hover {
   background-color: #7fe7d6;
   font-weight: 450;
   margin-top: 15px;
-  border-color: #7fe7d6;
+  border: none;
 }
 
 #homepage-hero .book-btn:hover {
@@ -309,7 +310,7 @@ footer a:hover {
   background-color: #7fe7d6;
   font-weight: 450;
   margin-top: 15px;
-  border-color: #7fe7d6;
+  border: none;
 }
 
 #homepage-final-cta .book-btn:hover {
@@ -457,7 +458,7 @@ footer a:hover {
   background-color: #7fe7d6;
   font-weight: 450;
   margin-top: 15px;
-  border-color: #7fe7d6;
+  border: none;
 }
 
 #voyage-final-cta .book-btn:hover {
@@ -503,7 +504,7 @@ footer a:hover {
   background-color: #7fe7d6;
   font-weight: 450;
   margin-top: 15px;
-  border-color: #7fe7d6;
+  border: none;
 }
 
 #gallery-final-cta .book-btn:hover {
