@@ -75,8 +75,10 @@ footer {
 .footer-heading {
   color: var(--secondary-bg-colour);
   margin-bottom: 1rem;
+  font-size: 2rem;
   font-weight: 600;
 }
+
 
 footer a {
   color: var(--primary-bg-colour);
@@ -1067,6 +1069,12 @@ h2 {
   .footer-logo {
     margin-bottom: 1.5rem;
   }
+
+  .footer-heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 
   .footer-about {
     margin-top: -0.5rem;
