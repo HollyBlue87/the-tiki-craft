@@ -598,12 +598,6 @@ footer a:hover {
   font-size: 1.5rem;
 }
 
-#package-info .package-subtitle {
-  font-size: 0.9rem;
-  color: #6c757d;
-  letter-spacing: 0.5px;
-}
-
 /* Accordions */
 #package-info {
   background-color: var(--primary-bg-colour);
@@ -1074,7 +1068,4 @@ h2 {
   font-weight: 600;
 }
 
-  .footer-about {
-    margin-top: -0.5rem;
-  }
 }
