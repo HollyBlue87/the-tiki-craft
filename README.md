@@ -40,6 +40,54 @@ The website was designed with the following objectives:
 
 ## User Experience (UX)
 
-### Project Planning
+## Project Planning
 
-GitHub Projects was used throughout the development process to plan, organise and track the progress of the project. User stories were created and prioritised before development began, allowing features to be implemented in a structured and logical order. The project board was updated throughout development as tasks were completed.
+The project was planned using GitHub Projects and managed using an Agile workflow. User stories were prioritised using the **MoSCoW** method to ensure that the core functionality was completed before optional enhancements.
+
+The project board was divided into the following stages:
+
+- **To Do** – Planned features not yet started.
+- **In Progress** – Features currently under development.
+- **Done** – Completed and tested features.
+
+Throughout development, user stories were moved between columns as work progressed, providing a clear overview of project progress and priorities.
+
+> **Note:** One *Could Have* feature (Customer Reviews Section) remains in the backlog as a future enhancement and was intentionally left out of the final release due to time constraints.
+
+![GitHub Project Board](documentation/project-board.png)
+
+### User Stories
+
+The project was planned using GitHub Projects, where user stories were prioritised and tracked throughout development using the following workflow:
+
+* **To Do** – Planned features awaiting development.
+* **In Progress** – Features currently being implemented.
+* **Completed** – Features successfully implemented and tested.
+
+The majority of the planned user stories were completed during the development of this project. One user story remains in the **To Do** column as a potential enhancement for future development.
+
+The full project board can be viewed here:
+
+[The Tiki Craft GitHub Project Board](YOUR_PROJECT_BOARD_LINK)
+
+A summary of the primary user stories is provided below.
+
+### Completed User Stories
+
+The following user stories were successfully implemented during development:
+
+| Priority | User Story | Status |
+|----------|------------|--------|
+| Must Have | Engaging homepage | ✅ Complete |
+| Must Have | Easy-to-use navigation | ✅ Complete |
+| Must Have | Clear booking and enquiry process | ✅ Complete |
+| Must Have | Gallery showcasing previous tours | ✅ Complete |
+| Must Have | Responsive design | ✅ Complete |
+| Must Have | Promote The Tiki Craft brand | ✅ Complete |
+| Must Have | Showcase destinations | ✅ Complete |
+| Must Have | Encourage new bookings | ✅ Complete |
+| Must Have | Information about the Tiki Craft experience | ✅ Complete |
+| Should Have | Form validation and error handling | ✅ Complete |
+| Should Have | Social media integration | ✅ Complete |
+| Could Have | Contact section | ✅ Complete |
+| Could Have | Customer reviews | ❌ Future Enhancement |
