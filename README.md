@@ -25,3 +25,15 @@ The project was independently designed and developed as part of the Code Institu
 
 Visitors can explore available cruises, discover destinations around Tobago, browse an image gallery, view booking packages and pricing, and enquire about availability through a responsive booking form. Although this website was created for educational purposes, it was designed with a real business in mind and could potentially be adopted as part of The Tiki Craft's online presence in the future.
 
+## Project Goals
+
+The primary goal of this project was to create a modern, responsive promotional website for **The Tiki Craft**, providing the business with an engaging online presence while demonstrating front-end web development skills.
+
+The website was designed with the following objectives:
+
+* Promote The Tiki Craft as a unique floating beach bar and entertainment venue in Tobago.
+* Showcase the range of cruises, private charters and special experiences available.
+* Encourage potential customers to make a booking enquiry through clear calls-to-action.
+* Provide an intuitive and enjoyable user experience across mobile, tablet and desktop devices.
+* Create a visually appealing design inspired by the colours, atmosphere and scenery of Tobago.
+* Demonstrate the use of HTML5, CSS3 and Bootstrap 5 to build a fully responsive website following modern web development practices.
