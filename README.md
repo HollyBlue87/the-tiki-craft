@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Project Goals](#project-goals)
+- [Project Aims](#project-goals)
 - [User Experience (UX)](#user-experience-ux)
 - [Design](#design)
 - [Features](#features)
@@ -23,7 +23,7 @@ The project was independently designed and developed as part of the Code Institu
 
 Visitors can explore available cruises, discover destinations around Tobago, browse an image gallery, view booking packages and pricing, and enquire about availability through a responsive booking form. Although this website was created for educational purposes, it was designed with a real business in mind and could potentially be adopted as part of The Tiki Craft's online presence in the future.
 
-## Project Goals
+## Project Aims
 
 The primary goal of this project was to create a modern, responsive promotional website for **The Tiki Craft**, providing the business with an engaging online presence while demonstrating front-end web development skills.
 
@@ -92,3 +92,36 @@ The following user stories were successfully implemented during development
 | Should Have | Social media integration | ✅ Complete |
 | Could Have | Contact section | ✅ Complete |
 | Could Have | Customer reviews | ❌ Future Enhancement |
+
+### Target Audience
+
+The website was designed with a broad audience in mind, focusing on both tourists and local residents looking for memorable experiences in Tobago.
+
+The primary target audiences are:
+
+* Tourists visiting Tobago looking for unique excursions and island experiences.
+* Couples seeking romantic cruises and sunset experiences.
+* Families looking for enjoyable group activities.
+* Friends celebrating birthdays, reunions and special occasions.
+* Local residents interested in private venue hire and themed events.
+
+### User Goals
+
+The website was designed to enable users to:
+
+* Learn about The Tiki Craft and the experiences available.
+* Explore destinations visited during cruises.
+* Browse photographs of previous events and experiences.
+* View available packages and pricing information.
+* Submit a booking enquiry quickly and easily.
+* Navigate the website intuitively on any device.
+
+### Site Owner Goals
+
+The primary goals of the business owner are to:
+
+* Promote The Tiki Craft through a professional online presence.
+* Showcase the range of cruises, private charters and special events available.
+* Encourage potential customers to submit booking enquiries.
+* Highlight Tobago's natural beauty and unique experiences.
+* Increase brand awareness through a visually engaging website.
