@@ -66,15 +66,18 @@ The project was planned using GitHub Projects, where user stories were prioritis
 
 The majority of the planned user stories were completed during the development of this project. One user story remains in the **To Do** column as a potential enhancement for future development.
 
-The full project board can be viewed here:
+![Project Board](documentation/project-board.png)
 
-[The Tiki Craft GitHub Project Board](YOUR_PROJECT_BOARD_LINK)
+![Project Board](documentation/user-story-example.png)
+
+The full project board can be viewed here:
+[The Tiki Craft GitHub Project Board](https://github.com/users/HollyBlue87/projects/4/views/1)
 
 A summary of the primary user stories is provided below.
 
 ### Completed User Stories
 
-The following user stories were successfully implemented during development:
+The following user stories were successfully implemented during development
 
 | Priority | User Story | Status |
 |----------|------------|--------|
