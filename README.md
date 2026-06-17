@@ -54,7 +54,8 @@ Throughout development, user stories were moved between columns as work progress
 
 > **Note:** One *Could Have* feature (Customer Reviews Section) remains in the backlog as a future enhancement and was intentionally left out of the final release due to time constraints.
 
-![GitHub Project Board](documentation/project-board.png)
+![GitHub Project Board](documentation/design/project-board.pngproject-board.png)
+![User Story](documentation/design/user-story-example.png)
 
 ### User Stories
 
