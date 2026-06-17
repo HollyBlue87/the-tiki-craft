@@ -15,8 +15,6 @@
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
 
-# The Tiki Craft
-
 ## Project Overview
 
 The Tiki Craft is a fully responsive promotional website developed for **The Tiki Craft**, a floating beach bar and entertainment venue located in Tobago, Trinidad and Tobago.
@@ -40,7 +38,7 @@ The website was designed with the following objectives:
 
 ## User Experience (UX)
 
-## Project Planning
+### Project Planning
 
 The project was planned using GitHub Projects and managed using an Agile workflow. User stories were prioritised using the **MoSCoW** method to ensure that the core functionality was completed before optional enhancements.
 
@@ -54,9 +52,6 @@ Throughout development, user stories were moved between columns as work progress
 
 > **Note:** One *Could Have* feature (Customer Reviews Section) remains in the backlog as a future enhancement and was intentionally left out of the final release due to time constraints.
 
-![GitHub Project Board](documentation/design/project-board.pngproject-board.png)
-![User Story](documentation/design/user-story-example.png)
-
 ### User Stories
 
 The project was planned using GitHub Projects, where user stories were prioritised and tracked throughout development using the following workflow:
@@ -67,12 +62,14 @@ The project was planned using GitHub Projects, where user stories were prioritis
 
 The majority of the planned user stories were completed during the development of this project. One user story remains in the **To Do** column as a potential enhancement for future development.
 
-![Project Board](documentation/project-board.png)
-
-![Project Board](documentation/user-story-example.png)
-
 The full project board can be viewed here:
 [The Tiki Craft GitHub Project Board](https://github.com/users/HollyBlue87/projects/4/views/1)
+
+![Project Board](documentation/design/project-board.png)
+
+### Example User Story
+
+![Project Board](documentation/design/user-story-example.png)
 
 A summary of the primary user stories is provided below.
 
