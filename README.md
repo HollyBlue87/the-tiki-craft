@@ -37,3 +37,9 @@ The website was designed with the following objectives:
 * Provide an intuitive and enjoyable user experience across mobile, tablet and desktop devices.
 * Create a visually appealing design inspired by the colours, atmosphere and scenery of Tobago.
 * Demonstrate the use of HTML5, CSS3 and Bootstrap 5 to build a fully responsive website following modern web development practices.
+
+## User Experience (UX)
+
+### Project Planning
+
+GitHub Projects was used throughout the development process to plan, organise and track the progress of the project. User stories were created and prioritised before development began, allowing features to be implemented in a structured and logical order. The project board was updated throughout development as tasks were completed.
