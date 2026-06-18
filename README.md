@@ -125,3 +125,73 @@ The primary goals of the business owner are to:
 * Encourage potential customers to submit booking enquiries.
 * Highlight Tobago's natural beauty and unique experiences.
 * Increase brand awareness through a visually engaging website.
+
+## Design
+
+The design of **The Tiki Craft** was inspired by the vibrant atmosphere, tropical scenery and relaxed island lifestyle of Tobago. The aim was to create a visually engaging website that immediately communicates the experience offered aboard The Tiki Craft while maintaining excellent usability across all devices.
+
+Throughout the design process, emphasis was placed on creating a clean, modern interface that reflects the personality of the business while making it easy for users to navigate, explore the available cruises and submit a booking enquiry.
+
+### Colour Scheme
+
+The colour palette was carefully selected to reflect the tropical environment surrounding The Tiki Craft. Colours were chosen to evoke the sea, beaches, sunshine and vibrant island atmosphere while maintaining sufficient contrast throughout most of the website.
+
+The primary colours include:
+
+* **Caribbean Teal** – Primary backgrounds and branding colour.
+* **Sandy Beige** – Secondary backgrounds and content sections.
+* **Ocean Mist Blue** – Primary call-to-action buttons.
+* **Golden Sand** and **Sunset Gold** – Highlights and feature text.
+* **Tropical Orange** – Pricing and important information.
+* **Dark Brown/Black** – Navigation bar and footer to provide visual contrast.
+
+The colour palette creates a consistent visual identity across the website while reinforcing the tropical branding of The Tiki Craft.
+
+![Colour Palette](documentation/design/colour-palette.png)
+
+### Typography
+
+Two Google Fonts were selected to balance readability with the relaxed tropical theme of the website.
+
+* **Poppins** was used as the primary font throughout the website due to its clean, modern appearance and excellent readability across desktop and mobile devices.
+* **Allura** was used selectively for decorative headings to introduce a more relaxed, handwritten style that complements the Caribbean aesthetic without affecting usability.
+
+### Imagery
+
+Authentic photography plays a major role throughout the website. Rather than relying on generic stock photography, images of the actual Tiki Craft experience were used wherever possible to give visitors an accurate representation of the cruises.
+
+Large hero images were selected for each page to immediately immerse users in the tropical atmosphere, while additional photographs throughout the site showcase destinations, onboard experiences and previous guests.
+
+The gallery page provides users with a larger collection of images, encouraging them to explore the experience in greater detail before making a booking enquiry.
+
+### Wireframes
+
+Low-fidelity wireframes were created during the planning stage to establish the layout and responsive structure of each page before development began.
+
+Separate wireframes were produced for mobile, tablet and desktop layouts to ensure the design remained responsive across different screen sizes.
+
+The layouts evolved throughout development as usability improvements were identified. For example, the booking information was ultimately presented using Bootstrap accordions to reduce scrolling and improve organisation, particularly on smaller devices.
+
+#### Homepage
+
+| Mobile                                                           | Tablet                                                           | Desktop                                                            |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------ |
+| ![Homepage Mobile](documentation/wireframes/homepage-mobile.png) | ![Homepage Tablet](documentation/wireframes/homepage-tablet.png) | ![Homepage Desktop](documentation/wireframes/homepage-desktop.png) |
+
+#### Voyage
+
+| Mobile                                                       | Tablet                                                       | Desktop                                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------------------------- |
+| ![Voyage Mobile](documentation/wireframes/voyage-mobile.png) | ![Voyage Tablet](documentation/wireframes/voyage-tablet.png) | ![Voyage Desktop](documentation/wireframes/voyage-desktop.png) |
+
+#### Gallery
+
+| Mobile                                                         | Tablet                                                         | Desktop                                                          |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------- |
+| ![Gallery Mobile](documentation/wireframes/gallery-mobile.png) | ![Gallery Tablet](documentation/wireframes/gallery-tablet.png) | ![Gallery Desktop](documentation/wireframes/gallery-desktop.png) |
+
+#### Booking
+
+| Mobile                                                         | Tablet                                                         | Desktop                                                          |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------- |
+| ![Booking Mobile](documentation/wireframes/booking-mobile.png) | ![Booking Tablet](documentation/wireframes/booking-tablet.png) | ![Booking Desktop](documentation/wireframes/booking-desktop.png) |
