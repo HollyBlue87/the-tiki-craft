@@ -166,7 +166,7 @@ The gallery page provides users with a larger collection of images, encouraging 
 
 ### Wireframes
 
-Low-fidelity wireframes were created during the planning stage to establish the layout and responsive structure of each page before development began.
+Wireframes were produced to communicate the responsive layout and structure of each page across mobile, tablet and desktop devices. As development progressed, several design decisions were refined, including the implementation of Bootstrap accordions and a modal booking form to improve usability. The wireframes below reflect the final design that was implemented.
 
 Separate wireframes were produced for mobile, tablet and desktop layouts to ensure the design remained responsive across different screen sizes.
 
@@ -195,3 +195,243 @@ The layouts evolved throughout development as usability improvements were identi
 | Mobile                                                         | Tablet                                                         | Desktop                                                          |
 | -------------------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------- |
 | ![Booking Mobile](documentation/wireframes/booking-mobile.png) | ![Booking Tablet](documentation/wireframes/booking-tablet.png) | ![Booking Desktop](documentation/wireframes/booking-desktop.png) |
+
+#### Booking Modal
+
+![Booking Modal](documentation/wireframes/booking-modal.png)
+
+*The booking enquiry form was implemented using a Bootstrap modal to keep the booking page clean and uncluttered. This allows users to review pricing information before opening the enquiry form, creating a smoother user experience without navigating away from the page.*
+
+### Design Decisions
+
+A number of design decisions were made throughout the development process to improve both the user experience and the overall presentation of the website.
+
+#### Mobile-First Development
+
+The website was developed using a mobile-first approach, taking advantage of Bootstrap's responsive grid system. This ensured that the site functioned effectively on smaller devices before progressively adapting to tablet and desktop layouts.
+
+#### Bootstrap Framework
+
+Bootstrap 5 was selected as the primary front-end framework because it formed part of the project requirements and provided a responsive grid system along with reusable components that accelerated development while maintaining consistency across the website.
+
+#### Fixed Navigation Bar
+
+A fixed navigation bar was implemented to allow users to navigate between pages at any point without needing to scroll back to the top. This improves usability, particularly on longer pages.
+
+#### Hero Sections
+
+Each page features a large hero image showcasing the natural beauty and atmosphere of The Tiki Craft. These images immediately communicate the tropical experience and establish a consistent visual identity across the website.
+
+#### Bootstrap Cards
+
+Bootstrap cards were used throughout the website to present destinations and key information in a clean, structured format. Their flexibility allowed consistent styling while maintaining responsiveness across all screen sizes.
+
+#### Bootstrap Accordions
+
+The booking packages were presented using Bootstrap accordions to reduce excessive scrolling and keep the page organised. Users can quickly expand only the information they are interested in, creating a cleaner and more intuitive experience.
+
+#### Booking Modal
+
+Rather than embedding a large booking form directly onto the page, a Bootstrap modal was used to display the enquiry form. This allows users to review package information before opening the form, resulting in a less cluttered layout and a more premium user experience.
+
+#### Icons
+
+Icons were used to quickly communicate key features of The Tiki Craft experience. This allows visitors to scan important information without reading large blocks of text, improving usability while reinforcing the tropical theme.
+
+#### Calls-to-Action
+
+Consistent call-to-action buttons are positioned throughout the website to encourage users to make a booking enquiry after viewing information about the cruises. Placing these strategically throughout the site reduces the number of steps required for users to begin the booking process.
+
+#### Imagery
+
+Authentic photographs of The Tiki Craft were used throughout the website instead of generic stock photography. This provides visitors with an accurate representation of the experience and helps establish trust with potential customers.
+
+## Features
+
+### Homepage
+
+The homepage introduces visitors to The Tiki Craft through a full-width hero image showcasing the experience, accompanied by a welcoming introduction and a prominent call-to-action button encouraging users to make a booking enquiry.
+
+Key features include:
+
+- Fixed navigation bar for easy access to all pages.
+- Large hero image with introductory text and booking call-to-action.
+- About section introducing The Tiki Craft experience.
+- Feature icons highlighting the main attractions of the voyage.
+- Feature cards presenting key selling points.
+- Scrolling image gallery preview.
+- Final call-to-action section encouraging bookings.
+- Footer containing contact information and social media links.
+
+---
+
+### Voyage Page
+
+The Voyage page provides visitors with detailed information about the available cruises, helping them choose the experience that best suits their needs before making a booking enquiry.
+
+Key features include:
+
+- Hero image with page introduction.
+- Cruise information displayed using Bootstrap accordions.
+- Clearly displayed pricing.
+- Frequently asked questions section.
+- Booking call-to-action button.
+- Fixed navigation and footer.
+
+---
+
+### Gallery Page
+
+The Gallery page allows visitors to preview photographs from previous voyages, giving them a realistic expectation of the experience.
+
+Key features include:
+
+- Hero image.
+- Responsive image gallery.
+- Optimised images for improved loading performance.
+- Booking call-to-action section.
+- Fixed navigation and footer.
+
+---
+
+### Booking Page
+
+The Booking page enables visitors to submit an enquiry for their preferred voyage using a clean and user-friendly booking form displayed within a Bootstrap modal.
+
+Key features include:
+
+- Hero image.
+- Booking information section.
+- Bootstrap modal booking form.
+- Client-side form validation.
+- Submit button directing users to the booking confirmation page.
+- Fixed navigation and footer.
+
+---
+
+### Booking Confirmation Page
+
+The booking confirmation page reassures visitors that their enquiry has been successfully submitted.
+
+Key features include:
+
+- Confirmation message.
+- Confirmation icon.
+- Return to homepage button.
+- Consistent branding and navigation.
+
+---
+
+### Custom 404 Page
+
+A custom 404 page ensures users remain within the site's branding if they attempt to access a page that does not exist.
+
+Key features include:
+
+- Friendly error message.
+- Branded design matching the rest of the website.
+- Button returning users to the homepage.
+
+## Future Enhancements
+
+If this project were to be developed further for use by The Tiki Craft business, the following features would be considered:
+
+- Implement a complete online booking system allowing customers to select an available date and make secure payments directly through the website.
+- Generate automatic booking confirmation emails containing voyage details and customer information.
+- Issue digital e-tickets with QR codes that can be scanned when customers arrive for their cruise.
+- Develop an administrative dashboard enabling staff to manage bookings, customer details, and voyage availability.
+- Introduce a customer account system where users can view, amend, or cancel their bookings.
+- Display live availability for each cruise to prevent overbooking.
+- Add customer reviews and testimonials to build trust with future visitors.
+- Integrate Google Maps to provide directions to the departure location.
+- Include weather forecasts and sea conditions to help visitors plan their trip.
+- Expand the gallery with videos submitted by customers alongside professional photography.
+
+## Technologies Used
+
+### Languages
+
+The following languages were used throughout the development of this project:
+
+* **HTML5** – Used to structure the content and layout of the website.
+* **CSS3** – Used to create the custom styling, responsive layouts and overall visual design.
+
+### Frameworks, Libraries and Programs
+
+The following frameworks, libraries and software were used during the design and development of this project:
+
+* **Bootstrap 5.3** – Used to create the responsive layout and implement components including the navigation bar, cards, accordion, modal, buttons and grid system.
+* **Google Fonts** – Used to import the Poppins and Allura fonts.
+* **Font Awesome** – Used to provide icons throughout the website.
+* **Git** – Used for version control during development.
+* **GitHub** – Used to host the project repository and manage project planning through GitHub Projects.
+* **GitHub Pages** – Used to deploy the live website.
+* **Visual Studio Code** – Used as the primary code editor.
+* **Figma** – Used to create the responsive wireframes.
+* **Canva** – Used to create the colour palette and supporting README graphics.
+* **TinyPNG / TinyJPG** – Used to compress images before deployment.
+* **Squoosh** – Used to convert and optimise images into WebP format to improve website performance.
+* **W3C HTML Validator** – Used to validate all HTML pages.
+* **W3C CSS Validator** – Used to validate the CSS stylesheet.
+* **Google Lighthouse** – Used to test performance, accessibility, best practices and SEO.
+* **Chrome DevTools** – Used throughout development for debugging, responsive testing and performance analysis.
+
+## Testing
+
+### HTML Validation
+
+All HTML pages were validated using the **W3C Markup Validation Service**.
+
+During development, several validation errors were identified and corrected. As the project was built using a common page template, many of these errors appeared across multiple pages before being resolved.
+
+The issues identified included:
+
+* Duplicate `<meta charset>` declarations.
+* `<title>` element positioned outside the `<head>` section.
+* Favicon `<link>` elements placed inside the `<body>`.
+* An additional closing `</head>` tag.
+* Duplicate `<body>` tag.
+* A stray closing `</a>` tag.
+* A duplicated attribute within the navigation bar.
+
+After correcting these issues, every HTML page successfully passed validation with no errors.
+
+| Page         | Result   |
+| ------------ | -------- |
+| index.html   | ✅ Passed |
+| voyage.html  | ✅ Passed |
+| gallery.html | ✅ Passed |
+| booking.html | ✅ Passed |
+| success.html | ✅ Passed |
+| 404.html     | ✅ Passed |
+
+#### Example Validation
+
+**Before**
+
+*![HTML Validation Before](documentation/testing/index-validator-errors-1.png)*
+
+**After**
+
+*![HTML Validation After](documentation/testing/index-validator-success.png)*
+
+### CSS Validation
+
+During development, the validator reported several parsing and lexical errors. These were traced to a small number of syntax issues within the stylesheet rather than multiple independent CSS problems.
+
+The issues identified included:
+
+* CSS parse errors caused by incorrect syntax.
+* Lexical errors resulting from accidental Git merge markers (@@) being left in the stylesheet.
+* Invalid CSS caused by the parser being interrupted after the merge markers.
+* A small number of warnings which were reviewed and confirmed not to affect the functionality of the * website.
+
+After removing the merge markers and correcting the CSS syntax, the stylesheet successfully passed validation with no errors.
+
+#### Before Fixes
+
+![CSS Validation Before](documentation/testing/css-validator-error.png)
+
+#### After Fixes
+
+![CSS Validation After](documentation/testing/css-validator-success.png)
