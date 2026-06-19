@@ -435,3 +435,48 @@ After removing the merge markers and correcting the CSS syntax, the stylesheet s
 #### After Fixes
 
 ![CSS Validation After](documentation/testing/css-validator-success.png)
+
+### Lighthouse Testing
+
+Google Lighthouse was used throughout development to assess the website's performance, accessibility, best practices and search engine optimisation (SEO). Testing was carried out on each page following deployment to GitHub Pages.
+
+Performance was improved during development by:
+
+* Converting images to the WebP format where appropriate.
+* Resizing and compressing images to reduce file sizes.
+* Adding width and height attributes to images to reduce layout shifts.
+* Removing unused CSS where possible.
+* Using semantic HTML to improve accessibility and SEO.
+
+Despite further optimisation, the Performance score remained affected by external CDN resources (Bootstrap, Google Fonts and Font Awesome) and GitHub Pages' caching policy, which are outside the scope of this project.
+
+| Page    |   Performance | Accessibility | Best Practices |                    SEO |
+| ------- | ------------: | ------------: | -------------: | ---------------------: |
+| Home    |            75 |            95 |            100 |                     91 |
+| Voyage  |            73 |            95 |             96 |                    100 |
+| Gallery |            74 |            95 |             96 |                    100 |
+| Booking |            80 |            95 |             96 |                    100 |
+| Success |            94 |           100 |             96 |                    100 |
+| 404     |            74 |           100 |             96 |                    100 |
+
+
+![Homepage Lighthouse Testing](documentation/testing/lighthouse-testing-mobile.png)
+
+![Voyage Lighthouse Testing](documentation/testing/voyage-lighthouse.png)
+
+![Gallery Lighthouse Testing](documentation/testing/gallery-lighthouse.png)
+
+### Browser Compatibility Testing
+
+The website was tested across multiple modern web browsers to ensure consistent functionality, responsiveness and appearance.
+
+| Browser         | Result             |
+| --------------- | ------------------ |
+| Google Chrome   | ✅ Fully functional |
+| Microsoft Edge  | ✅ Fully functional |
+| Mozilla Firefox | ✅ Fully functional |
+| Safari          | ✅ Fully functional |
+
+No significant cross-browser compatibility issues were identified during testing.
+
+
