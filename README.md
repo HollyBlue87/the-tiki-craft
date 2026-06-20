@@ -479,4 +479,134 @@ The website was tested across multiple modern web browsers to ensure consistent 
 
 No significant cross-browser compatibility issues were identified during testing.
 
+### Device Testing
 
+The website was tested throughout development on a range of physical devices to ensure responsive layouts, consistent styling and full functionality across different screen sizes.
+
+| Device      | Browser       | Result             |
+| ----------- | ------------- | ------------------ |
+| MacBook     | Google Chrome | ✅ Fully functional |
+| MacBook     | Safari        | ✅ Fully functional |
+| iPhone 16   | Safari        | ✅ Fully functional |
+| iPhone 14   | Safari        | ✅ Fully functional |
+| Samsung A16 | Google Chrome | ✅ Fully functional |
+| Samsung A12 | Google Chrome | ✅ Fully functional |
+| iPad        | Safari        | ✅ Fully functional |
+
+Testing confirmed that the website remained fully responsive across mobile, tablet and desktop devices. Navigation, forms, images, buttons, modals and responsive layouts functioned as expected with no significant issues identified.
+
+## Manual Testing
+
+### Homepage
+
+| Feature | Test Performed | Expected Result | Status |
+|---------|----------------|-----------------|--------|
+| Navigation bar | Clicked each navigation link | User is taken to the correct page or section | ✅ Pass |
+| Book Now button | Clicked hero CTA | Booking page opens | ✅ Pass |
+| Fixed navigation | Scrolled the page | Navigation remains visible at the top | ✅ Pass |
+| Hero section | Checked heading, text and CTA | All content displays correctly without overlap | ✅ Pass |
+| About section | Checked responsive layout | Text and icons remain aligned on all screen sizes | ✅ Pass |
+| Feature icons | Checked icon display | Icons load correctly with no missing images | ✅ Pass |
+| Feature cards | Checked layout on different devices | Cards remain aligned and responsive | ✅ Pass |
+| Gallery preview | Clicked View Gallery button | Gallery page opens | ✅ Pass |
+| Final CTA | Clicked Book Now button | Booking page opens | ✅ Pass |
+| Footer links | Tested social media icons | Each icon opens the correct external website | ✅ Pass |
+| Contact information | Checked phone, email and address | Information displays correctly | ✅ Pass |
+
+---
+
+### Voyage Page
+
+| Feature | Test Performed | Expected Result | Status |
+|---------|----------------|-----------------|--------|
+| Hero section | Checked image and heading | Hero displays correctly across devices | ✅ Pass |
+| Destination overview | Checked text formatting | Content is readable with no layout issues | ✅ Pass |
+| Timeline section | Checked timeline layout | Timeline remains correctly aligned on all devices | ✅ Pass |
+| Perfect for Every Occasion cards | Checked responsive layout | Cards remain aligned and readable | ✅ Pass |
+| Final CTA | Clicked Book Your Voyage button | Booking page opens | ✅ Pass |
+| Footer | Checked links and contact details | All information displays correctly | ✅ Pass |
+
+---
+
+### Gallery Page
+
+| Feature | Test Performed | Expected Result | Status |
+|---------|----------------|-----------------|--------|
+| Gallery grid | Checked responsive layout | Images remain aligned across screen sizes | ✅ Pass |
+| Gallery images | Checked image quality | Images display clearly with no distortion | ✅ Pass |
+| Gallery images | Checked all images load | No broken or missing images | ✅ Pass |
+| Final CTA | Clicked booking button | Booking page opens | ✅ Pass |
+| Footer | Checked links and contact details | All information displays correctly | ✅ Pass |
+
+---
+
+### Booking Page
+
+| Feature | Test Performed | Expected Result | Status |
+|---------|----------------|-----------------|--------|
+| Package cards | Checked layout | Cards remain aligned across devices | ✅ Pass |
+| Pricing accordions | Opened and closed each accordion | Correct pricing information expands and collapses | ✅ Pass |
+| Booking button | Clicked Book Now | Booking modal opens | ✅ Pass |
+| Booking modal | Checked modal opens | Modal displays correctly | ✅ Pass |
+| Required fields | Submitted empty form | Validation messages appear | ✅ Pass |
+| Name field | Entered valid name | Field accepts input | ✅ Pass |
+| Email field | Entered invalid email | Browser validation prevents submission | ✅ Pass |
+| Email field | Entered valid email | Field accepts valid email address | ✅ Pass |
+| Date field | Selected booking date | Date is accepted | ✅ Pass |
+| Number of guests | Selected guest number | Selection works correctly | ✅ Pass |
+| Package selection | Selected package | Selected option is displayed | ✅ Pass |
+| Additional information | Entered text | Text is accepted correctly | ✅ Pass |
+| Submit booking | Submitted completed form | User is redirected to confirmation page | ✅ Pass |
+
+---
+
+### Confirmation Page
+
+| Feature | Test Performed | Expected Result | Status |
+|---------|----------------|-----------------|--------|
+| Confirmation message | Submitted booking form | Confirmation page loads successfully | ✅ Pass |
+| Return Home button | Clicked button | Homepage opens | ✅ Pass |
+
+---
+
+### 404 Page
+
+| Feature | Test Performed | Expected Result | Status |
+|---------|----------------|-----------------|--------|
+| Invalid URL | Entered incorrect page address | Custom 404 page is displayed | ✅ Pass |
+| Return Home button | Clicked button | Homepage opens successfully | ✅ Pass |
+
+---
+
+### Responsive Testing
+
+| Device | Test Performed | Expected Result | Status |
+|--------|----------------|-----------------|--------|
+| iPhone 14 | Tested all pages | Layout remains responsive | ✅ Pass |
+| iPhone 16 | Tested all pages | Layout remains responsive | ✅ Pass |
+| Samsung A12 | Tested all pages | Layout remains responsive | ✅ Pass |
+| Samsung A16 | Tested all pages | Layout remains responsive | ✅ Pass |
+| iPad | Tested all pages | Layout adjusts correctly | ✅ Pass |
+| MacBook | Tested all pages | Desktop layout displays correctly | ✅ Pass |
+
+---
+
+### Cross Browser Testing
+
+| Browser | Test Performed | Expected Result | Status |
+|---------|----------------|-----------------|--------|
+| Google Chrome | Tested all pages | Website functions correctly | ✅ Pass |
+| Microsoft Edge | Tested all pages | Website functions correctly | ✅ Pass |
+| Mozilla Firefox | Tested all pages | Website functions correctly | ✅ Pass |
+| Safari | Tested all pages | Website functions correctly | ✅ Pass |
+
+---
+
+### Lighthouse Testing
+
+| Page | Performance | Accessibility | Best Practices | SEO |
+|------|------------:|--------------:|---------------:|----:|
+| Homepage | 74 | 95 | 100 | 91 |
+| Voyage | 74 | 95 | 92 | 100 |
+| Gallery | 73 | 95 | 96 | 100 |
+| Booking | 73 | 95 | 96 | 91 |
