@@ -601,12 +601,3 @@ Testing confirmed that the website remained fully responsive across mobile, tabl
 | Safari | Tested all pages | Website functions correctly | ✅ Pass |
 
 ---
-
-### Lighthouse Testing
-
-| Page | Performance | Accessibility | Best Practices | SEO |
-|------|------------:|--------------:|---------------:|----:|
-| Homepage | 74 | 95 | 100 | 91 |
-| Voyage | 74 | 95 | 92 | 100 |
-| Gallery | 73 | 95 | 96 | 100 |
-| Booking | 73 | 95 | 96 | 91 |
