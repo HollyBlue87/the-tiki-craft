@@ -196,7 +196,7 @@ The layouts evolved throughout development as usability improvements were identi
 
 #### Booking Modal
 
-![Booking Modal](documentation/wireframes/booking-modal.png)
+![Booking Modal](documentation/wireframes/modal-mobile.png)
 
 *The booking enquiry form was implemented using a Bootstrap modal to keep the booking page clean and uncluttered. This allows users to review pricing information before opening the enquiry form, creating a smoother user experience without navigating away from the page.*
 
