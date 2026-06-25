@@ -63,7 +63,7 @@
               src="assets/images/beach-logo.png"
               width="90"
               height="90"
-              alt="Palm Tree"
+              alt="Palm tree on a beach Tiki Craft logo"
             >
           </a>
           <button
@@ -146,7 +146,7 @@
                 src="assets/images/drink.webp"          
                 width="100"
                 height="100"
-                alt="Cocktail drink icon"
+                alt="Cocktail drink icon representing drinks on the tiki craft"
               >
               <h3>Rum & Spirits</h3>
               <p>
@@ -162,7 +162,7 @@
                 
                 width="100"
                 height="100"
-                alt="Food tray icon"
+                alt="Food tray icon representing food on the tiki craft"
               >
               <h3>Fresh BBQ</h3>
               <p>
@@ -178,7 +178,7 @@
                 
                 width="100"
                 height="100"
-                alt="Music icon"
+                alt="Music icon representing the music played on the tiki craft"
               >
               <h3>Native Music</h3>
               <p>
@@ -194,7 +194,7 @@
                 
                 width="100"
                 height="100"
-                alt="Palm tree icon"
+                alt="Palm tree icon representing the views seen from the tiki craft"
               >
               <h3>Island Views</h3>
               <p>
@@ -339,7 +339,7 @@
                 class="zoom-hover"
                 
                 src="assets/images/sunset-pose.webp"
-                alt="A woman posing on the side of the Tiki craft"
+                alt="A woman posing on the side of the Tiki Craft"
                 width="600"
                 height="400"
               >
@@ -408,7 +408,7 @@
           <div class="col-12 col-lg-4 text-center text-lg-start">
             <img
               src="assets/images/tiki-logo.webp"
-              alt="The Tiki Craft Logo"
+              alt="The official Tiki Craft Logo"
               class="footer-logo img-fluid mb-3"
                 width="600"
                 height="400"
@@ -502,21 +502,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-  const gallery = document.getElementById("gallery-scroll");
+      const gallery = document.getElementById("gallery-scroll");
 
-  document.getElementById("scroll-left").addEventListener("click", () => {
-    gallery.scrollBy({
-      left: -350,
-      behavior: "smooth",
-    });
-  });
+      document.getElementById("scroll-left").addEventListener("click", () => {
+       gallery.scrollBy({
+        left: -gallery.clientWidth,
+        behavior: "smooth",
+        });
+      });
 
-  document.getElementById("scroll-right").addEventListener("click", () => {
-    gallery.scrollBy({
-      left: 350,
-      behavior: "smooth",
-    });
-  });
-</script>
+      document.getElementById("scroll-right").addEventListener("click", () => {
+        gallery.scrollBy({
+          left: gallery.clientWidth,
+          behavior: "smooth",
+        });
+      });
+    </script>
   </body>
 </html>

@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Project Aims](#project-goals)
+- [Project Aims](#project-aims)
 - [User Experience (UX)](#user-experience-ux)
 - [Design](#design)
 - [Features](#features)
